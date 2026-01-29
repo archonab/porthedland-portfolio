@@ -128,7 +128,7 @@ export const PROJECTS: ProjectItem[] = [
     location: 'Lane Cove, NSW',
     image: '/assets/birdwood.jpg',
     category: 'High Density Residential',
-    roles: ['PM'],
+    roles: ['PM', 'Construction Management'],
     value: '104m'
   },
   {
@@ -136,7 +136,7 @@ export const PROJECTS: ProjectItem[] = [
     location: 'Lara, VIC',
     image: '/assets/lara.jpg',
     category: 'Social Infrastructure',
-    roles: ['Consultancy'],
+    roles: ['PM', 'Consultancy'],
     value: '1244 beds'
   }
 ];
@@ -146,14 +146,15 @@ export const CORE_TEAM: TeamMember[] = [
     name: 'Andre V. Boghessian',
     role: 'Technical and Design Director',
     bio: 'Responsible for technical design coordination and NCC/BCA compliance. Andre ensures the modular package integrates seamlessly with local architectural requirements.',
-    image: '/assets/andre.jpg',
+    image: 'https://storage.googleapis.com/static-content-sh/andre-v-portrait.png',
     qualifications: ['Design & Technical Specialist'],
     focus: 'Technical Governance',
     trackRecord: [
       { title: '7-15 Centennial Ave', detail: '$160M - Mixed Use - Retail and 213 Apartments' },
       { title: '594-598 Mowbray Road', detail: '$105M - 65 Residential Apartments' },
       { title: '296-314 Burns Bay Rd', detail: '$98M - Mixed Use - Retail, Childcare, 107 Residential Apartments' },
-      { title: '34-42 Penshurst St', detail: '$74M - Mixed-use coordination' }
+      { title: '34-42 Penshurst St', detail: '$74M - Mixed-use coordination' },
+      { title: '22 Birdwood Avenue', detail: '$109M - 212 Apartments' }
     ]
   },
   {
@@ -166,7 +167,7 @@ export const CORE_TEAM: TeamMember[] = [
     trackRecord: [
       { title: 'Melbourne Hotel', detail: '17 Storey Hotel - Design Manager and PM' },
       { title: '81-83 Tram Rd', detail: '$16M - 33 Apartments' },
-      { title: 'Low Rise Residential Portfolio', detail: 'Doncaster East, Box Hill, Camberwell, Balwyn - Design and CM' }
+      { title: 'Low Rise Residential Portfolio', detail: 'Doncaster East, Box Hill, Camberwell, Balwyn - Design and CM' },
       { title: 'NDIS SDA Portfolio', detail: 'CM of SDA NDIS High Physical Support Units' }
     ]
   },
@@ -180,8 +181,8 @@ export const CORE_TEAM: TeamMember[] = [
     trackRecord: [
       { title: 'The Hari Hotel Development', detail: '30 Storey hotel - end to end project management' },
       { title: 'Tencent Shenzhen Headquarters', detail: '3 million sqm mixed-use project - design management and project governance' },
-      { title: 'Federation Tower, Melbourne', detail: 'Mixed Use Tower 88 Flinders Street, Melbourne - design management' }
-      { title: 'West Kowloon Cultural District', detail: 'technical feasibility of project & new tunnel connection to MTR subway station' },      
+      { title: 'Federation Tower, Melbourne', detail: 'Mixed Use Tower 88 Flinders Street, Melbourne - design management' },
+      { title: 'West Kowloon Cultural District', detail: 'technical feasibility of project & new tunnel connection to MTR subway station' },
       { title: 'HK International Airport', detail: 'Airport Expansion Project - consultancy team lead' }
     ]
   }
