@@ -58,16 +58,6 @@ const Navbar: React.FC = () => {
               <span className="absolute -bottom-1 left-0 w-full h-[1px] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left bg-sh-accent"></span>
             </a>
           ))}
-          <a 
-            href="#contact" 
-            className={`text-[11px] font-bold tracking-widest uppercase border px-6 py-2 transition-all ${
-              isScrolled 
-                ? 'border-sh-black text-sh-black hover:bg-sh-black hover:text-white' 
-                : 'border-white text-white hover:bg-white hover:text-sh-black'
-            }`}
-          >
-            Review Proposal
-          </a>
         </div>
 
         <button className="md:hidden z-50" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>

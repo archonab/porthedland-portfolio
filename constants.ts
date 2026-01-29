@@ -48,15 +48,15 @@ export const PROJECTS: ProjectItem[] = [
     title: '594-598 Mowbray Road',
     location: 'Lane Cove, NSW',
     image: 'https://images.unsplash.com/photo-1459767129954-15160431891e?q=80&w=2070&auto=format&fit=crop',
-    category: 'Residential',
-    roles: ['Design Management', 'PM'],
+    category: 'High Density Residential',
+    roles: ['Design Management', 'Technical Coordination'],
     value: '$105M'
   },
   {
     title: '296-314 Burns Bay Rd',
     location: 'Lane Cove, NSW',
     image: 'https://images.unsplash.com/photo-1448630360428-6545663b5ef5?q=80&w=2070&auto=format&fit=crop',
-    category: 'Mixed Use / Retail',
+    category: 'Mixed Use / Retail / High Density Residential',
     roles: ['Design Management', 'Technical Coordination'],
     value: '$98M'
   },
@@ -64,15 +64,15 @@ export const PROJECTS: ProjectItem[] = [
     title: '34-42 Penshurst St',
     location: 'Willoughby, NSW',
     image: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=2070&auto=format&fit=crop',
-    category: 'Residential',
-    roles: ['Design Management'],
+    category: 'High Density Residential',
+    roles: ['Design Management', 'Technical Coordination'],
     value: '$54M'
   },
   {
     title: '1-5 Centennial Ave',
     location: 'Lane Cove, NSW',
     image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070&auto=format&fit=crop',
-    category: 'Residential',
+    category: 'High Density Residential',
     roles: ['Design Management', 'Technical Coordination'],
     value: '$48M'
   },
@@ -80,15 +80,15 @@ export const PROJECTS: ProjectItem[] = [
     title: '544-550 Mowbray Rd',
     location: 'Lane Cove, NSW',
     image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop',
-    category: 'Residential',
-    roles: ['Technical Coordination'],
+    category: 'High Density Residential',
+    roles: ['Design Management', 'Technical Coordination'],
     value: '$47M'
   },
   {
     title: '81-83 Tram Rd',
     location: 'Doncaster, VIC',
     image: 'https://images.unsplash.com/photo-1493397212122-2b85def82820?q=80&w=2070&auto=format&fit=crop',
-    category: 'Residential',
+    category: 'High Density Residential',
     roles: ['Development Management', 'PM'],
     value: '$16M'
   },
@@ -123,6 +123,14 @@ export const PROJECTS: ProjectItem[] = [
     category: 'Childcare',
     roles: ['Design Management'],
     value: '2m-5m'
+  },
+   {
+    title: '22 Birdwood Avenue',
+    location: 'Lane Cove, NSW',
+    image: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=2070&auto=format&fit=crop',
+    category: 'High Density Residential',
+    roles: ['PM'],
+    value: '104m'
   },
   {
     title: 'Western Plains Correctional',

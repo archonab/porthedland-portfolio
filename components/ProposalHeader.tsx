@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { ArrowDown } from 'lucide-react';
 import { PROPOSAL_PROJECT } from '../constants';
 
 const ProposalHeader: React.FC = () => {
@@ -34,18 +33,11 @@ const ProposalHeader: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-end space-y-12">
+        <div className="flex flex-col items-end">
           <div className="text-right border-r-2 border-sh-accent pr-6 py-1">
             <span className="block text-white text-[10px] uppercase font-bold tracking-widest mb-1">Prepared For</span>
             <span className="block text-gray-400 text-[10px] uppercase tracking-widest">Yuna Chua & The SIBS Team</span>
           </div>
-          <a 
-            href="#capabilities" 
-            className="group flex items-center space-x-6 text-white bg-white/5 hover:bg-white/10 px-8 py-4 border border-white/10 transition-all"
-          >
-            <span className="text-[10px] uppercase font-bold tracking-widest group-hover:text-sh-accent transition-colors">Start Review</span>
-            <ArrowDown size={14} className="group-hover:translate-y-1 transition-transform" />
-          </a>
         </div>
       </div>
     </section>
