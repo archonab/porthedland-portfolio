@@ -230,14 +230,14 @@ export const CAPABILITIES: CapabilityItem[] = [
   },
   {
     id: '03',
-    title: 'Industrialised Delivery',
-    desc: 'Senior advisors with deep international manufacturing networks ensuring precision at scale.',
+    title:'End-to-End Traceability',
+    desc: 'Comprehensive evidence registers for every modular system from production to handover.',
     icon: Factory
   },
   {
     id: '04',
-    title: 'End-to-End Traceability',
-    desc: 'Comprehensive evidence registers for every modular system from production to handover.',
+    title: 'Delivery governance',
+    desc: 'Operate the registers through factory, shipment and installation (as agreed) to support acceptance and close-out.',
     icon: Truck
   }
 ];

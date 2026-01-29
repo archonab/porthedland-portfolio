@@ -11,14 +11,11 @@ const CapabilityGrid: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-24 gap-12">
             <div className="max-w-3xl">
               <span className="block text-[10px] font-bold tracking-widest text-sh-accent uppercase mb-8">Value Proposition</span>
-              <h2 className="text-5xl md:text-7xl font-bold tracking-tighter leading-[0.9] mb-4">The Governance <br/>Custodian.</h2>
+              <h2 className="text-5xl md:text-7xl font-bold tracking-tighter leading-[0.9] mb-4">Delivery interface & acceptance support.</h2>
             </div>
             <div className="max-w-md">
               <p className="text-gray-500 text-lg font-light leading-relaxed">
-                We bridge the critical gap between offshore manufacturing and local compliance, 
-                acting as the technical guardian for the SIBS modular package throughout the 
-                project lifecycle.
-              </p>
+              On modular projects, the real risk sits in the gaps—between factory and site, module and services, supplier and subcontractor. We help make those interfaces explicit and decisions traceable, so issues are closed out early and acceptance is straightforward.
             </div>
           </div>
         </RevealOnScroll>
@@ -47,12 +44,12 @@ const CapabilityGrid: React.FC = () => {
             </p>
             <div className="flex space-x-12">
               <div className="text-center">
-                <span className="block text-2xl font-bold tracking-tighter">100%</span>
+                <span className="block text-2xl font-bold tracking-tighter">Clear</span>
                 <span className="block text-[8px] font-bold uppercase tracking-widest text-gray-400">Compliance alignment</span>
               </div>
               <div className="text-center">
-                <span className="block text-2xl font-bold tracking-tighter">Factory</span>
-                <span className="block text-[8px] font-bold uppercase tracking-widest text-gray-400">Direct Governance</span>
+                <span className="block text-2xl font-bold tracking-tighter">Acceptance</span>
+                <span className="block text-[8px] font-bold uppercase tracking-widest text-gray-400">Focused Oversight</span>
               </div>
             </div>
           </div>

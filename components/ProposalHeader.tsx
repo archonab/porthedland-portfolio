@@ -1,19 +1,37 @@
-
 import React from 'react';
 import { PROPOSAL_PROJECT } from '../constants';
 
 const ProposalHeader: React.FC = () => {
   return (
     <section className="relative min-h-[85vh] md:h-screen w-full flex flex-col justify-end pb-12 md:pb-24 px-6 md:px-12 overflow-hidden bg-sh-black">
+      {/* Background Layers */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-t from-sh-black via-sh-black/40 to-transparent z-10"></div>
+        {/* 1. Base Abstract Texture */}
+        <img 
+          src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=2670&auto=format&fit=crop" 
+          alt="Abstract Texture" 
+          className="absolute inset-0 w-full h-full object-cover opacity-30"
+        />
+        
+        {/* 2. Technical Grid Overlay */}
+        <div 
+          className="absolute inset-0 opacity-[0.05] pointer-events-none"
+          style={{
+            backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
+            backgroundSize: '100px 100px'
+          }}
+        ></div>
+
+        {/* 3. Original Gradient & Project Image */}
+        <div className="absolute inset-0 bg-gradient-to-t from-sh-black via-sh-black/60 to-transparent z-10"></div>
         <img
           src={PROPOSAL_PROJECT.image}
           alt="Proposal Visualization"
-          className="w-full h-full object-cover grayscale animate-slow-zoom opacity-60"
+          className="w-full h-full object-cover grayscale animate-slow-zoom opacity-60 mix-blend-luminosity"
         />
       </div>
 
+      {/* Hero Content (Maintained from original code) */}
       <div className="relative z-20 w-full flex flex-col md:flex-row justify-between items-end fade-in-up">
         <div className="max-w-3xl mb-8 md:mb-0">
           <span className="inline-block text-[10px] font-bold tracking-[0.3em] text-sh-accent uppercase mb-6">
