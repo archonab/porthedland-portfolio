@@ -146,7 +146,7 @@ export const CORE_TEAM: TeamMember[] = [
     name: 'Andre V. Boghessian',
     role: 'Technical and Design Director',
     bio: 'Responsible for technical design coordination and NCC/BCA compliance. Andre ensures the modular package integrates seamlessly with local architectural requirements.',
-    image: 'https://storage.googleapis.com/static-content-sh/andre-v-portrait.png',
+    image: '/assets/andre.jpg',
     qualifications: ['Design & Technical Specialist'],
     focus: 'Technical Governance',
     trackRecord: [
