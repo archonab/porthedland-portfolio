@@ -145,7 +145,7 @@ export const CORE_TEAM: TeamMember[] = [
   {
     name: 'Andre V. Boghessian',
     role: 'Technical and Design Director',
-    bio: 'Responsible for technical design coordination and NCC/BCA compliance. Andre ensures the modular package integrates seamlessly with local architectural requirements.',
+    bio: 'Leads technical coordination for the modular scope and supports the project’s code pathway through structured reviews and clear documentation. Focused on defining modular boundaries, resolving interfaces with the consultant team, and ensuring the evidence required for sign-off and acceptance is available and well-organised.',
     image: '/assets/andre.jpg',
     qualifications: ['Design & Technical Specialist'],
     focus: 'Technical Governance',
@@ -160,7 +160,7 @@ export const CORE_TEAM: TeamMember[] = [
   {
     name: 'David Abbas',
     role: 'Development Director',
-    bio: 'Oversees construction methodology and on-site assembly. David manages the critical interface between factory supply chains and site installation crews.',
+    bio: 'Acts as the Australian delivery interface for the modular scope—aligning stakeholders, staging, and information flow between SIBS, the consultant team, and the onshore delivery parties. Focused on practical delivery planning, interface coordination, and keeping approvals/evidence requirements visible early to avoid downstream rework',
     image: '/assets/david.jpg',
     qualifications: ['Construction & Development Lead'],
     focus: 'Site & Logistics Management',
@@ -174,7 +174,7 @@ export const CORE_TEAM: TeamMember[] = [
   {
     name: 'Wilton Wong',
     role: 'Project Director',
-    bio: 'Directly oversees the project delivery lifecycle. Wilton specializes in bridging the distance between offshore modular production and complex Australian site logistics.',
+    bio: 'Senior development and project management leader with extensive cross-border delivery experience across hospitality, mixed-use and institutional projects. Brings strong governance, procurement and risk discipline—helping keep scope boundaries clear, evidence complete, and acceptance outcomes commercially robust.',
     image: '/assets/wilton.jpg',
     qualifications: ['Senior Project Management'],
     focus: 'Core Delivery Oversight',
@@ -192,7 +192,7 @@ export const SUPPORT_TEAM: TeamMember[] = [
   {
     name: 'Eddie Lau',
     role: 'Partner',
-    bio: 'Provides high-level strategic alignment and stakeholder management. Eddie ensures that the SIBS partnership is supported by robust planning and capital strategies.',
+    bio: 'With over 20 years in property development and project delivery, Eddie supports cross-discipline coordination and stakeholder alignment across complex projects. For modular engagements, he focuses on practical delivery planning, interface coordination, and keeping decisions and close-out actions moving across the consultant team and onshore delivery parties.',
     image: '/assets/eddie.jpg',
     qualifications: ['Strategy & Stakeholder Management'],
     focus: 'Strategic Support',
@@ -204,7 +204,7 @@ export const SUPPORT_TEAM: TeamMember[] = [
   {
     name: 'Premshangar Venugopal',
     role: 'Partner',
-    bio: 'Leads manufacturing and supply chain governance. Prem leverages deep international industrial networks to ensure production meets Australian commercial standards.',
+    bio: 'Prem supports Stanley Hamilton’s modular and capital strategy, helping align offshore manufacturing capability, delivery structure, and commercial governance into a clear execution pathway. He brings strong discipline in governance, procurement and stakeholder alignment—particularly across cross-border delivery contexts.',
     image: '/assets/prem.jpg',
     qualifications: ['Industrial Strategy Expert'],
     focus: 'Supply Chain Governance',
