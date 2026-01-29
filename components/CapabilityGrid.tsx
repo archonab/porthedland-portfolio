@@ -15,7 +15,7 @@ const CapabilityGrid: React.FC = () => {
             </div>
             <div className="max-w-md">
               <p className="text-gray-500 text-lg font-light leading-relaxed">
-              On modular projects, the real risk sits in the gaps—between factory and site, module and services, supplier and subcontractor. We help make those interfaces explicit and decisions traceable, so issues are closed out early and acceptance is straightforward.
+              On modular projects, the real risk sits in the gaps—between factory and site, module and services, supplier and subcontractor. We help make those interfaces explicit and decisions traceable, so issues are closed out early and acceptance is straightforward.</p>
             </div>
           </div>
         </RevealOnScroll>

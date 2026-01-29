@@ -52,12 +52,12 @@ export const PROJECTS: ProjectItem[] = [
     value: '$105M'
   },
   {
-    title: '296-314 Burns Bay Rd',
+    title: '76-82 Gordon Crescent',
     location: 'Lane Cove, NSW',
-    image: '/assets/296mowbray.jpg',
-    category: 'Mixed Use / Retail / High Density Residential',
+    image: '/assets/gordon.jpg',
+    category: 'High Density Residential',
     roles: ['Design Management', 'Technical Coordination'],
-    value: '$98M'
+    value: '$24M'
   },
   {
     title: '34-42 Penshurst St',
