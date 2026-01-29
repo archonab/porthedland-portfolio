@@ -1,4 +1,3 @@
-
 import { LayoutGrid, ShieldCheck, Factory, Truck } from 'lucide-react';
 import { ProjectItem, TeamMember, CapabilityItem } from './types';
 
@@ -15,7 +14,7 @@ export const PROJECTS: ProjectItem[] = [
   {
     title: 'The Hari Hotel Development',
     location: 'Wan Chai, Hong Kong',
-    image: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/hari.jpg',
     category: 'Hotel / Hospitality',
     roles: ['Project Management', 'Construction Management'],
     value: '30 Storeys'
@@ -23,7 +22,7 @@ export const PROJECTS: ProjectItem[] = [
   {
     title: '17 Storey Hotel',
     location: 'West Melbourne, VIC',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/wmel.jpg',
     category: 'Hospitality',
     roles: ['Design Management', 'PM', 'Technical Coordination'],
     value: '88 Hotel Rooms'
@@ -31,15 +30,15 @@ export const PROJECTS: ProjectItem[] = [
   {
     title: 'Tencent Shenzhen Headquarters',
     location: 'Shenzhen, China',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/tencent.jpg',
     category: 'Commercial / HQ',
-    roles: ['Project Management', 'Strategic Advisory'],
+    roles: ['Project Management', 'Technical Coordination'],
     value: '3m sqm'
   },
   {
     title: '7-15 Centennial Ave',
     location: 'Lane Cove, NSW',
-    image: 'https://images.unsplash.com/photo-1503387762-592dea58ef23?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/7centennial.jpg',
     category: 'High Density Residential',
     roles: ['Design Management', 'Technical Coordination'],
     value: '$160M'
@@ -47,7 +46,7 @@ export const PROJECTS: ProjectItem[] = [
   {
     title: '594-598 Mowbray Road',
     location: 'Lane Cove, NSW',
-    image: 'https://images.unsplash.com/photo-1459767129954-15160431891e?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/594mowbray.jpg',
     category: 'High Density Residential',
     roles: ['Design Management', 'Technical Coordination'],
     value: '$105M'
@@ -55,7 +54,7 @@ export const PROJECTS: ProjectItem[] = [
   {
     title: '296-314 Burns Bay Rd',
     location: 'Lane Cove, NSW',
-    image: 'https://images.unsplash.com/photo-1448630360428-6545663b5ef5?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/296mowbray.jpg',
     category: 'Mixed Use / Retail / High Density Residential',
     roles: ['Design Management', 'Technical Coordination'],
     value: '$98M'
@@ -63,7 +62,7 @@ export const PROJECTS: ProjectItem[] = [
   {
     title: '34-42 Penshurst St',
     location: 'Willoughby, NSW',
-    image: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/34penshurst.jpg',
     category: 'High Density Residential',
     roles: ['Design Management', 'Technical Coordination'],
     value: '$54M'
@@ -71,7 +70,7 @@ export const PROJECTS: ProjectItem[] = [
   {
     title: '1-5 Centennial Ave',
     location: 'Lane Cove, NSW',
-    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/1centennial.jpg',
     category: 'High Density Residential',
     roles: ['Design Management', 'Technical Coordination'],
     value: '$48M'
@@ -79,7 +78,7 @@ export const PROJECTS: ProjectItem[] = [
   {
     title: '544-550 Mowbray Rd',
     location: 'Lane Cove, NSW',
-    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/550mowbray.jpg',
     category: 'High Density Residential',
     roles: ['Design Management', 'Technical Coordination'],
     value: '$47M'
@@ -87,7 +86,7 @@ export const PROJECTS: ProjectItem[] = [
   {
     title: '81-83 Tram Rd',
     location: 'Doncaster, VIC',
-    image: 'https://images.unsplash.com/photo-1493397212122-2b85def82820?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/doncaster.jpg',
     category: 'High Density Residential',
     roles: ['Development Management', 'PM'],
     value: '$16M'
@@ -95,7 +94,7 @@ export const PROJECTS: ProjectItem[] = [
   {
     title: 'HK International Airport Expansion',
     location: 'Hong Kong',
-    image: 'https://images.unsplash.com/photo-1530521954074-e64f6810b32d?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/hk-airport.jpg',
     category: 'Infrastructure',
     roles: ['Technical Coordination', 'Consultancy'],
     value: 'Expansion'
@@ -103,15 +102,15 @@ export const PROJECTS: ProjectItem[] = [
   {
     title: 'NDIS Portfolio',
     location: 'Various, VIC',
-    image: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/sda.jpg',
     category: 'Social Infrastructure',
     roles: ['Design Management', 'Construction Management'],
     value: 'SDA Housing'
   },
-    {
+  {
     title: 'Low-rise multi-unit townhouse Projects',
     location: 'Various - Box Hill, Camberwell, Doncaster East, Dandenong, VIC',
-    image: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/townhouse.jpg',
     category: 'Residential',
     roles: ['Design Management', 'PM', 'Construction Management'],
     value: '1m-4m'
@@ -119,15 +118,15 @@ export const PROJECTS: ProjectItem[] = [
   {
     title: 'Childcare Centres',
     location: 'Various - Carlingford, Kellyville, Frenchs Forest, Marsfield, VIC',
-    image: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/childcare.jpg',
     category: 'Childcare',
-    roles: ['Design Management'],
+    roles: ['Design Management', 'Technical Coordination'],
     value: '2m-5m'
   },
-   {
+  {
     title: '22 Birdwood Avenue',
     location: 'Lane Cove, NSW',
-    image: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/birdwood.jpg',
     category: 'High Density Residential',
     roles: ['PM'],
     value: '104m'
@@ -135,7 +134,7 @@ export const PROJECTS: ProjectItem[] = [
   {
     title: 'Western Plains Correctional',
     location: 'Lara, VIC',
-    image: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/lara.jpg',
     category: 'Social Infrastructure',
     roles: ['Consultancy'],
     value: '1244 beds'
@@ -147,7 +146,7 @@ export const CORE_TEAM: TeamMember[] = [
     name: 'Andre V. Boghessian',
     role: 'Technical and Design Director',
     bio: 'Responsible for technical design coordination and NCC/BCA compliance. Andre ensures the modular package integrates seamlessly with local architectural requirements.',
-    image: 'https://storage.googleapis.com/static-content-sh/andre-v-portrait.png',
+    image: '/assets/andre.jpg',
     qualifications: ['Design & Technical Specialist'],
     focus: 'Technical Governance',
     trackRecord: [
@@ -161,12 +160,13 @@ export const CORE_TEAM: TeamMember[] = [
     name: 'David Abbas',
     role: 'Development Director',
     bio: 'Oversees construction methodology and on-site assembly. David manages the critical interface between factory supply chains and site installation crews.',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1974&auto=format&fit=crop',
+    image: '/assets/david.jpg',
     qualifications: ['Construction & Development Lead'],
     focus: 'Site & Logistics Management',
     trackRecord: [
       { title: 'Melbourne Hotel', detail: '17 Storey Hotel - Design Manager and PM' },
       { title: '81-83 Tram Rd', detail: '$16M - 33 Apartments' },
+      { title: 'Low Rise Residential Portfolio', detail: 'Doncaster East, Box Hill, Camberwell, Balwyn - Design and CM' }
       { title: 'NDIS SDA Portfolio', detail: 'CM of SDA NDIS High Physical Support Units' }
     ]
   },
@@ -174,12 +174,14 @@ export const CORE_TEAM: TeamMember[] = [
     name: 'Wilton Wong',
     role: 'Project Director',
     bio: 'Directly oversees the project delivery lifecycle. Wilton specializes in bridging the distance between offshore modular production and complex Australian site logistics.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop',
+    image: '/assets/wilton.jpg',
     qualifications: ['Senior Project Management'],
     focus: 'Core Delivery Oversight',
     trackRecord: [
       { title: 'The Hari Hotel Development', detail: '30 Storey hotel - end to end project management' },
       { title: 'Tencent Shenzhen Headquarters', detail: '3 million sqm mixed-use project - design management and project governance' },
+      { title: 'Federation Tower, Melbourne', detail: 'Mixed Use Tower 88 Flinders Street, Melbourne - design management' }
+      { title: 'West Kowloon Cultural District', detail: 'technical feasibility of project & new tunnel connection to MTR subway station' },      
       { title: 'HK International Airport', detail: 'Airport Expansion Project - consultancy team lead' }
     ]
   }
@@ -190,7 +192,7 @@ export const SUPPORT_TEAM: TeamMember[] = [
     name: 'Eddie Lau',
     role: 'Partner',
     bio: 'Provides high-level strategic alignment and stakeholder management. Eddie ensures that the SIBS partnership is supported by robust planning and capital strategies.',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop',
+    image: '/assets/eddie.jpg',
     qualifications: ['Strategy & Stakeholder Management'],
     focus: 'Strategic Support',
     trackRecord: [
@@ -202,7 +204,7 @@ export const SUPPORT_TEAM: TeamMember[] = [
     name: 'Premshangar Venugopal',
     role: 'Partner',
     bio: 'Leads manufacturing and supply chain governance. Prem leverages deep international industrial networks to ensure production meets Australian commercial standards.',
-    image: 'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?q=80&w=1974&auto=format&fit=crop',
+    image: '/assets/prem.jpg',
     qualifications: ['Industrial Strategy Expert'],
     focus: 'Supply Chain Governance',
     trackRecord: [
